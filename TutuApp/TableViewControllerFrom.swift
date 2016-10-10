@@ -142,6 +142,8 @@ class TableViewControllerFrom: UITableViewController, UISearchResultsUpdating, U
     let filePath = Bundle.main.path(forResource: "allStations", ofType:"json") as String!
     let data = NSData(contentsOfFile: filePath!) as NSData!
     
+    arrayOfStations.removeAll()
+    
     json = JSON(data: data as! Data, options: JSONSerialization.ReadingOptions.mutableContainers, error: nil)
     
     for value in json["citiesFrom"].array!
@@ -165,6 +167,8 @@ class TableViewControllerFrom: UITableViewController, UISearchResultsUpdating, U
   func loadListOfTo() {
     let filePath = Bundle.main.path(forResource: "allStations", ofType:"json") as String!
     let data = NSData(contentsOfFile: filePath!) as NSData!
+    
+    arrayOfStations.removeAll()
     
     json = JSON(data: data as! Data, options: JSONSerialization.ReadingOptions.mutableContainers, error: nil)
     

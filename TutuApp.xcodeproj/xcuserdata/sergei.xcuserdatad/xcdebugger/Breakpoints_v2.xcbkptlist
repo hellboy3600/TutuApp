@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TutuApp/TableViewControllerFrom.swift"
-            timestampString = "497793197.728121"
+            timestampString = "497816324.246795"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "didStartSearching()"
             landmarkType = "7">
          </BreakpointContent>
