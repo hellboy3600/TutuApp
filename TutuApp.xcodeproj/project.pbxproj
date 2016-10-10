@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4693E69332BC1BBB1347114E /* Pods_TutuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D73626BDF622513ED9EF113 /* Pods_TutuApp.framework */; };
+		853600C71DA6BA3E00916FE8 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853600C61DA6BA3E00916FE8 /* CustomSearchBar.swift */; };
+		853600C91DA6BA5300916FE8 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853600C81DA6BA5300916FE8 /* CustomSearchController.swift */; };
+		853600CD1DA7A69500916FE8 /* TableViewControllerFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853600CC1DA7A69500916FE8 /* TableViewControllerFrom.swift */; };
+		853600CF1DA7AF6B00916FE8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853600CE1DA7AF6B00916FE8 /* TableViewCell.swift */; };
+		853600D11DA7B0D500916FE8 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853600D01DA7B0D500916FE8 /* SelectedViewController.swift */; };
+		853600D31DA7C52000916FE8 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853600D21DA7C52000916FE8 /* Station.swift */; };
 		85576A3F1DA573D5004EF6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85576A3E1DA573D5004EF6A9 /* AppDelegate.swift */; };
 		85576A411DA573D5004EF6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85576A401DA573D5004EF6A9 /* ViewController.swift */; };
 		85576A441DA573D5004EF6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85576A421DA573D5004EF6A9 /* Main.storyboard */; };
@@ -14,6 +21,9 @@
 		85576A491DA573D5004EF6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85576A471DA573D5004EF6A9 /* LaunchScreen.storyboard */; };
 		85576A541DA573D6004EF6A9 /* TutuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85576A531DA573D6004EF6A9 /* TutuAppTests.swift */; };
 		85576A5F1DA573D6004EF6A9 /* TutuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85576A5E1DA573D6004EF6A9 /* TutuAppUITests.swift */; };
+		85E1E5261DA7CF73004CE827 /* allStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 85E1E5251DA7CF73004CE827 /* allStations.json */; };
+		B1280F921460B27CC95A4952 /* Pods_TutuAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4F1BCCB645A7212FA1B640 /* Pods_TutuAppTests.framework */; };
+		C0081C95A2BC486F21DE046C /* Pods_TutuAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE39BB5DFDDF70B89293C705 /* Pods_TutuAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA8C99F2678A59A2D5CC9CA /* Pods-TutuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutuAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TutuAppUITests/Pods-TutuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FB8C4390FCB421E3E1736A9 /* Pods-TutuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutuAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TutuAppTests/Pods-TutuAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		40043AD95629BBA4ACFBACF1 /* Pods-TutuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutuApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TutuApp/Pods-TutuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D73626BDF622513ED9EF113 /* Pods_TutuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D4D240F1C524ED8EA2D713 /* Pods-TutuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutuAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TutuAppUITests/Pods-TutuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		853600C61DA6BA3E00916FE8 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		853600C81DA6BA5300916FE8 /* CustomSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
+		853600CC1DA7A69500916FE8 /* TableViewControllerFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerFrom.swift; sourceTree = "<group>"; };
+		853600CE1DA7AF6B00916FE8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		853600D01DA7B0D500916FE8 /* SelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
+		853600D21DA7C52000916FE8 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		85576A3B1DA573D5004EF6A9 /* TutuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85576A3E1DA573D5004EF6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85576A401DA573D5004EF6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,11 @@
 		85576A5A1DA573D6004EF6A9 /* TutuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85576A5E1DA573D6004EF6A9 /* TutuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutuAppUITests.swift; sourceTree = "<group>"; };
 		85576A601DA573D6004EF6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E1E5251DA7CF73004CE827 /* allStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allStations.json; sourceTree = "<group>"; };
+		87C39F3E79DA4E49AFBF51A8 /* Pods-TutuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutuApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TutuApp/Pods-TutuApp.release.xcconfig"; sourceTree = "<group>"; };
+		98D0F6E4744176AB6F841C71 /* Pods-TutuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutuAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TutuAppTests/Pods-TutuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4F1BCCB645A7212FA1B640 /* Pods_TutuAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutuAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE39BB5DFDDF70B89293C705 /* Pods_TutuAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutuAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4693E69332BC1BBB1347114E /* Pods_TutuApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1280F921460B27CC95A4952 /* Pods_TutuAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0081C95A2BC486F21DE046C /* Pods_TutuAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32BA4D7BAE3B1955CA2BF0DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40043AD95629BBA4ACFBACF1 /* Pods-TutuApp.debug.xcconfig */,
+				87C39F3E79DA4E49AFBF51A8 /* Pods-TutuApp.release.xcconfig */,
+				98D0F6E4744176AB6F841C71 /* Pods-TutuAppTests.debug.xcconfig */,
+				2FB8C4390FCB421E3E1736A9 /* Pods-TutuAppTests.release.xcconfig */,
+				83D4D240F1C524ED8EA2D713 /* Pods-TutuAppUITests.debug.xcconfig */,
+				2AA8C99F2678A59A2D5CC9CA /* Pods-TutuAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85576A321DA573D5004EF6A9 = {
 			isa = PBXGroup;
 			children = (
+				85E1E5251DA7CF73004CE827 /* allStations.json */,
 				85576A3D1DA573D5004EF6A9 /* TutuApp */,
 				85576A521DA573D6004EF6A9 /* TutuAppTests */,
 				85576A5D1DA573D6004EF6A9 /* TutuAppUITests */,
 				85576A3C1DA573D5004EF6A9 /* Products */,
+				32BA4D7BAE3B1955CA2BF0DC /* Pods */,
+				D88BA5A38A998AFFF47F3E52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +144,13 @@
 			children = (
 				85576A3E1DA573D5004EF6A9 /* AppDelegate.swift */,
 				85576A401DA573D5004EF6A9 /* ViewController.swift */,
+				853600CC1DA7A69500916FE8 /* TableViewControllerFrom.swift */,
+				853600CE1DA7AF6B00916FE8 /* TableViewCell.swift */,
+				853600C61DA6BA3E00916FE8 /* CustomSearchBar.swift */,
+				853600C81DA6BA5300916FE8 /* CustomSearchController.swift */,
+				853600D21DA7C52000916FE8 /* Station.swift */,
 				85576A421DA573D5004EF6A9 /* Main.storyboard */,
+				853600D01DA7B0D500916FE8 /* SelectedViewController.swift */,
 				85576A451DA573D5004EF6A9 /* Assets.xcassets */,
 				85576A471DA573D5004EF6A9 /* LaunchScreen.storyboard */,
 				85576A4A1DA573D5004EF6A9 /* Info.plist */,
@@ -125,6 +176,16 @@
 			path = TutuAppUITests;
 			sourceTree = "<group>";
 		};
+		D88BA5A38A998AFFF47F3E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D73626BDF622513ED9EF113 /* Pods_TutuApp.framework */,
+				BC4F1BCCB645A7212FA1B640 /* Pods_TutuAppTests.framework */,
+				BE39BB5DFDDF70B89293C705 /* Pods_TutuAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85576A631DA573D6004EF6A9 /* Build configuration list for PBXNativeTarget "TutuApp" */;
 			buildPhases = (
+				7B9302F736E3732E4762F8D2 /* [CP] Check Pods Manifest.lock */,
 				85576A371DA573D5004EF6A9 /* Sources */,
 				85576A381DA573D5004EF6A9 /* Frameworks */,
 				85576A391DA573D5004EF6A9 /* Resources */,
+				AF9DC2E61773EB2C03ACFB99 /* [CP] Embed Pods Frameworks */,
+				D5D5E2552AB06772758D0C2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85576A661DA573D6004EF6A9 /* Build configuration list for PBXNativeTarget "TutuAppTests" */;
 			buildPhases = (
+				9373BE248DE053934FC4ADEA /* [CP] Check Pods Manifest.lock */,
 				85576A4B1DA573D6004EF6A9 /* Sources */,
 				85576A4C1DA573D6004EF6A9 /* Frameworks */,
 				85576A4D1DA573D6004EF6A9 /* Resources */,
+				16B453B906A2BD2A27DC31BF /* [CP] Embed Pods Frameworks */,
+				CD8A501802CEB77BD81A3022 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85576A691DA573D6004EF6A9 /* Build configuration list for PBXNativeTarget "TutuAppUITests" */;
 			buildPhases = (
+				FCC19544F709A4B15E2F7DFD /* [CP] Check Pods Manifest.lock */,
 				85576A561DA573D6004EF6A9 /* Sources */,
 				85576A571DA573D6004EF6A9 /* Frameworks */,
 				85576A581DA573D6004EF6A9 /* Resources */,
+				CAE7D9E45390774BD5939016 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85576A491DA573D5004EF6A9 /* LaunchScreen.storyboard in Resources */,
+				85E1E5261DA7CF73004CE827 /* allStations.json in Resources */,
 				85576A461DA573D5004EF6A9 /* Assets.xcassets in Resources */,
 				85576A441DA573D5004EF6A9 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +327,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16B453B906A2BD2A27DC31BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutuAppTests/Pods-TutuAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9302F736E3732E4762F8D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9373BE248DE053934FC4ADEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9DC2E61773EB2C03ACFB99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutuApp/Pods-TutuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE7D9E45390774BD5939016 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutuAppUITests/Pods-TutuAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8A501802CEB77BD81A3022 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutuAppTests/Pods-TutuAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D5E2552AB06772758D0C2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TutuApp/Pods-TutuApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC19544F709A4B15E2F7DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85576A371DA573D5004EF6A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853600C91DA6BA5300916FE8 /* CustomSearchController.swift in Sources */,
+				853600CD1DA7A69500916FE8 /* TableViewControllerFrom.swift in Sources */,
+				853600D31DA7C52000916FE8 /* Station.swift in Sources */,
 				85576A411DA573D5004EF6A9 /* ViewController.swift in Sources */,
+				853600CF1DA7AF6B00916FE8 /* TableViewCell.swift in Sources */,
+				853600C71DA6BA3E00916FE8 /* CustomSearchBar.swift in Sources */,
+				853600D11DA7B0D500916FE8 /* SelectedViewController.swift in Sources */,
 				85576A3F1DA573D5004EF6A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,12 +535,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -385,12 +586,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -411,8 +614,11 @@
 		};
 		85576A641DA573D6004EF6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40043AD95629BBA4ACFBACF1 /* Pods-TutuApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BG8S35H7A5;
 				INFOPLIST_FILE = TutuApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,8 +630,11 @@
 		};
 		85576A651DA573D6004EF6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C39F3E79DA4E49AFBF51A8 /* Pods-TutuApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BG8S35H7A5;
 				INFOPLIST_FILE = TutuApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,9 +646,11 @@
 		};
 		85576A671DA573D6004EF6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D0F6E4744176AB6F841C71 /* Pods-TutuAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BG8S35H7A5;
 				INFOPLIST_FILE = TutuAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -452,9 +663,11 @@
 		};
 		85576A681DA573D6004EF6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB8C4390FCB421E3E1736A9 /* Pods-TutuAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BG8S35H7A5;
 				INFOPLIST_FILE = TutuAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,8 +680,10 @@
 		};
 		85576A6A1DA573D6004EF6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4D240F1C524ED8EA2D713 /* Pods-TutuAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BG8S35H7A5;
 				INFOPLIST_FILE = TutuAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,8 +696,10 @@
 		};
 		85576A6B1DA573D6004EF6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA8C99F2678A59A2D5CC9CA /* Pods-TutuAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BG8S35H7A5;
 				INFOPLIST_FILE = TutuAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -512,6 +729,7 @@
 				85576A651DA573D6004EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85576A661DA573D6004EF6A9 /* Build configuration list for PBXNativeTarget "TutuAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +738,7 @@
 				85576A681DA573D6004EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85576A691DA573D6004EF6A9 /* Build configuration list for PBXNativeTarget "TutuAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +747,7 @@
 				85576A6B1DA573D6004EF6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

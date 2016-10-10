@@ -10,27 +10,53 @@ import XCTest
 @testable import TutuApp
 
 class TutuAppTests: XCTestCase {
+  
+  var viewController : ViewController!
+  var tableViewController : TableViewControllerFrom!
+
+  override func setUp() {
+    super.setUp()
+      
+    viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
+    tableViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TableViewControllerFrom") as! TableViewControllerFrom
+
+  }
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+  override func tearDown() {
+      super.tearDown()
+  }
+  
+  func testDateInFieldForViewController() {
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
+    XCTAssertNotNil(viewController, "Should not be nil")
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    let _ = viewController.view
+    let s = viewController.scheduleView
+    let kek = viewController.dateLabel
+    let datePick = viewController.datePicker
+    XCTAssertNotNil(s, "Should not be nil")
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    let formatter = DateFormatter()
+    formatter.dateFormat = "dd/MM/YYYY"
+    let date = formatter.string(from: (datePick?.date)!)
+    XCTAssertEqual(kek?.text, date)
+  }
+  
+  func TestCellTextAterLoading() {
     
+    XCTAssertNotNil(tableViewController, "The table controller view should be set")
+    
+    tableViewController.searchFlag = true
+    _ = tableViewController.view
+    let tableView = tableViewController.tableView
+    tableViewController.loadListOfFrom()
+    let indexPath = IndexPath(row: 0, section: 0)
+    tableView?.reloadData()
+    
+    let cell = tableView?.cellForRow(at: indexPath) as! TableViewCell
+    XCTAssertNotNil(cell)
+
+    let text = cell.cityText.text
+    XCTAssertEqual(text, "Вена")
+  }
 }
